@@ -1,0 +1,11 @@
+.DS_Store
+.ipynb_checkpoints/
+.env
+.idea/
+.wttd/
+*.sqlite3
+*pyc
+__pycache__
+
+WelcomeToTheDjango.rst
+aulas/
