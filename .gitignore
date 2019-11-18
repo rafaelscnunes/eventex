@@ -10,3 +10,4 @@ __pycache__
 WelcomeToTheDjango.rst
 aulas/
 staticfiles/
+*.png
