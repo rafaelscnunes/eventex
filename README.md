@@ -1,5 +1,7 @@
 # Eventex
 
+[![CodeFactor](https://www.codefactor.io/repository/github/rafaelscnunes/eventex/badge)](https://www.codefactor.io/repository/github/rafaelscnunes/eventex)
+
 Sistema de eventos encomendado pela Morena.
 
 ## Como desenvolver?
