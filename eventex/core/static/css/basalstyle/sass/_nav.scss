@@ -3,8 +3,8 @@
 
 .nav-inline {
     vertical-align: middle;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
@@ -27,7 +27,7 @@
 .nav-inline li {
     font-size: 1em;
     margin: 0 1.4em 0 0;
-    padding: 0 0;
+    padding: 0;
     float: left;
     list-style: none;
     position: relative;
@@ -35,7 +35,6 @@
 
 .nav-inline li a {
     font-size: 1.4em;
-    font-weight: 400;
     line-height: 45px;
     font-weight: 700;
     text-decoration: none;
@@ -119,7 +118,7 @@
         color: #000;
     }
     .submenu:hover ul {
-      margin: 0 0 0;
+      margin: 0;
       opacity: 1;
       -webkit-transition: opacity 0.6s, margin 1s;
       transition: opacity 0.6s, margin 1s;
@@ -133,7 +132,7 @@
       float: none;
     }
     .submenu ul li a {
-      margin: 0 0;
+      margin: 0;
       padding: 0 1em;
       display: block;
       text-align: left;
