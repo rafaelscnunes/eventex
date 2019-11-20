@@ -36,5 +36,4 @@ def new(request):
 def subscribe(request):
     if request.method == 'POST':
         return create(request)
-    else:
-        return new(request)
+    return new(request)
