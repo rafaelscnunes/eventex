@@ -1,6 +1,4 @@
-# Eventex
-
-[![CodeFactor](https://www.codefactor.io/repository/github/rafaelscnunes/eventex/badge)](https://www.codefactor.io/repository/github/rafaelscnunes/eventex)
+# Eventex       [![Build Status](https://travis-ci.org/rafaelscnunes/eventex.svg?branch=master)](https://travis-ci.org/rafaelscnunes/eventex)   [![CodeFactor](https://www.codefactor.io/repository/github/rafaelscnunes/eventex/badge)](https://www.codefactor.io/repository/github/rafaelscnunes/eventex) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/226116477cb44100a23805c199a037ba)](https://www.codacy.com/manual/rafaelscnunes/eventex?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rafaelscnunes/eventex&amp;utm_campaign=Badge_Grade)
 
 Sistema de eventos encomendado pela Morena.
 
