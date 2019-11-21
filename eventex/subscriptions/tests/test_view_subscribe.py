@@ -3,7 +3,7 @@ from django.test import TestCase
 from eventex.subscriptions.forms import SubscriptionForm
 
 class SubscribeGet(TestCase):
-    def setUp(self) -> None:
+    def setUp(self):
         self.resp = self.client.get('/inscricao/')
 
     def test_get(self):
@@ -37,7 +37,7 @@ class SubscribeGet(TestCase):
 
 
 class SubscribePostValid(TestCase):
-    def setUp(self) -> None:
+    def setUp(self):
         data = dict(name='Rafael Nunes', cpf='12345678901', email='rafaelscnunes@gmail.com', phone='21981246171')
         self.resp = self.client.post('/inscricao/', data)
         self.email = mail.outbox[0]
@@ -51,7 +51,7 @@ class SubscribePostValid(TestCase):
 
 
 class SubscribePostInvalid(TestCase):
-    def setUp(self) -> None:
+    def setUp(self):
         self.resp = self.client.post('/inscricao/', {})
         self.form = self.resp.context['form']
 

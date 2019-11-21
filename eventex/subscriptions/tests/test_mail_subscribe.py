@@ -3,7 +3,7 @@ from django.test import TestCase
 
 
 class SubscribePostValid(TestCase):
-    def setUp(self) -> None:
+    def setUp(self):
         data = dict(name='Rafael Nunes', cpf='12345678901', email='rafaelscnunes@gmail.com', phone='21981246171')
         self.client.post('/inscricao/', data)
         self.email = mail.outbox[0]

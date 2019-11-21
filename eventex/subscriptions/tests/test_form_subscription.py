@@ -3,7 +3,7 @@ from eventex.subscriptions.forms import SubscriptionForm
 
 
 class SubscriptionFormTest(TestCase):
-    def setUp(self) -> None:
+    def setUp(self):
         self.form = SubscriptionForm()
 
     def test_form_has_fields(self):
