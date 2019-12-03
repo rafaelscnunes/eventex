@@ -25,7 +25,8 @@ class SubscriptionDetailGet(TestCase):
     def test_html(self):
         contents = (self.obj.name, self.obj.cpf, self.obj.email, self.obj.phone)
         for expected in contents:
-            self.assertContains(self.resp, expected)
+            with self.subTest():
+                self.assertContains(self.resp, expected)
 
 
 class SubscriptionDetailNotFound(TestCase):

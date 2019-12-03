@@ -35,15 +35,15 @@ def new(request):
     return render(request, 'subscriptions/subscription_form.html', {'form': SubscriptionForm()})
 
 
+def subscribe(request):
+    if request.method == 'POST':
+        return create(request)
+    return new(request)
+
+
 def detail(request, pk):
     try:
         subscription = Subscription.objects.get(pk=pk)
     except Subscription.DoesNotExist:
         raise Http404
     return render(request, 'subscriptions/subscription_detail.html', {'subscription': subscription})
-
-
-def subscribe(request):
-    if request.method == 'POST':
-        return create(request)
-    return new(request)
