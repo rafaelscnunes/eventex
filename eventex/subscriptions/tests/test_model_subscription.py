@@ -6,10 +6,10 @@ from eventex.subscriptions.models import Subscription
 class SubscriptionModelTest(TestCase):
     def setUp(self) -> None:
         self.obj = Subscription(
-            name='José das Coves',
+            name='José das Couves',
             cpf='01234567890',
-            email='eventex@mailinator.com',
-            phone='24-999219922')
+            email='josedascouves@mailinator.com',
+            phone='21 999998888')
         self.obj.save()
 
     def test_create(self):
@@ -20,4 +20,4 @@ class SubscriptionModelTest(TestCase):
         self.assertIsInstance(self.obj.created_at, datetime)
 
     def test_str(self):
-        self.assertEqual('José das Coves', str(self.obj))
+        self.assertEqual('José das Couves', str(self.obj))
